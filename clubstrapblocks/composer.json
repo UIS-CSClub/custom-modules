@@ -1,0 +1,14 @@
+{
+  "name": "drupal/clubstrapblocks",
+  "type": "drupal-module",
+  "description": "Pre defined blocks for the clubstrap theme",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/clubstrapblocks",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/clubstrapblocks",
+    "source": "http://cgit.drupalcode.org/clubstrapblocks"
+  },
+  "require": { }
+}

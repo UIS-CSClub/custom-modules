@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains clubstrapblocks.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function clubstrapblocks_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the clubstrapblocks module.
+    case 'help.page.clubstrapblocks':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Pre defined blocks for the clubstrap theme') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function clubstrapblocks_theme() {
+  return [
+    'clubstrapblocks' => [
+      'template' => 'clubstrapblocks',
+      'render element' => 'children',
+    ],
+  ];
+}
