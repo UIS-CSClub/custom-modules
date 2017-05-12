@@ -3,7 +3,7 @@
     <span class="fa fa-circle fa-stack-2x font-awesome-round-bg-green">‌</span>
     <span aria-hidden="true" class="fa fa-calendar fa-stack-1x">‌‌</span>
   </span>
-  <h3><a class="border-bottom-dotted" href="category/events">Events</a></h3>
+  <h3><a class="border-bottom-dotted" href="events">Events</a></h3>
   <p>Checkout information about our weekly meetups, upcoming tech talks &amp; competitions.</p>
 </div>
 
